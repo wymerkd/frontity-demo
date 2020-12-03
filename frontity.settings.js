@@ -2,7 +2,7 @@ const settings = {
   "name": "frontity-app",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "http://wpformsplayground.com/",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -35,8 +35,8 @@ const settings = {
             ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "http://wpformsplayground.com/"
         }
       }
     },
